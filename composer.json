@@ -4,7 +4,11 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+		"cwkj/money":"1.*",
+		"cwkj/wechat":"1.*",
+		"cwkj/ali":"1.*"
+	},
 	"autoload":{
 		"psr-4":{
 			"cwkj\\order\\":"src/"
